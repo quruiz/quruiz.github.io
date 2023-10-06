@@ -1,7 +1,7 @@
 {
-  "name": "LilyGo A7670E",
+  "name": "VMS",
   "version": "1.1",
-  "home_assistant_domain": "wled",
+  "home_assistant_domain": "Athanor",
   "builds": [
     {
       "chipFamily": "ESP32",
