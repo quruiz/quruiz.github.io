@@ -15,16 +15,22 @@
 <body>
 	<br>
 	<div id="header">
-        <div id="logo">
-            <img src="static/athandor_line.png" width="300" alt="">
-        </div>
-    </div>
-	<esp-web-install-button manifest="firmware\manifest_ESP32.json"></esp-web-install-button>
+		<div id="logo">
+			<img src="static/athandor_line.png" width="300" alt="">
+		</div>
+	</div>
+	<esp-web-install-button manifest="firmware\manifest_ESP32.json">
+		<button slot="activate">Installation</button>
+	</esp-web-install-button>
+	<br>
+	<a href="https://github.com/Xinyuan-LilyGO/CH9102_Driver/raw/main/CH9102_WIN.EXE" download="Driver CH9120" style="text-decoration: none;">
+		<button>Driver CH9120</button>
+	</a>
 	<br>
 	<br>
 	<div class="footer" style="color: #009EE2; font-family: 'Nunito', sans-serif;">
-    	Installer powered by <a href="https://esphome.github.io/esp-web-tools/">ESP Web Tools</a>.
-    </div>
+		Installer powered by <a href="https://esphome.github.io/esp-web-tools/">ESP Web Tools</a>.
+	</div>
 </body>
 
 </html>
