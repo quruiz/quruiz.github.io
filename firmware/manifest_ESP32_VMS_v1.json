@@ -1,6 +1,6 @@
 {
   "name": "VMS",
-  "version": "1.5",
+  "version": "1.6",
   "home_assistant_domain": "Athanor",
   "builds": [
     {
@@ -19,7 +19,7 @@
           "offset": 57344
         },
         {
-          "path": "firmware.bin",
+          "path": "VMS1/firmware.bin",
           "offset": 65536
         }
       ]
